@@ -4,13 +4,10 @@
             [reitit.frontend.easy :as rfe]
             [reitit.coercion.spec :as rss]
             [fipp.edn :as fedn]
-            [cljsjs.semantic-ui-react :as ui]))
+            [cljsjs.semantic-ui-react :as ui]
+            [frontend.pages.home :as hp]))
 
 (defonce match (r/atom nil))
-
-(defn home-page []
-  [:div
-   [:h2 "Welcome to my personal page"]])
 
 (defn about-page []
   [:div
@@ -43,7 +40,7 @@
 (def routes
   [["/"
     {:name ::homepage
-     :view home-page}]
+     :view hp/page-content}]
 
    ["/about"
     {:name ::about
