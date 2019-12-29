@@ -23,8 +23,8 @@
     {:fixed "top"
      :borderless true}
     [:> ui/Menu.Item {:name "Sergey Andronov" :header true :href (rfe/href ::homepage)}]
-    [:> ui/Menu.Item {:name "About me" :key "about-me" :href (rfe/href ::about) :position "right"}]
-    [:> ui/Menu.Item {:name "Resume" :key "resume" :href (rfe/href ::resume)}]]])
+    [:> ui/Menu.Item {:name "About me" :href (rfe/href ::about) :position "right"}]
+    [:> ui/Menu.Item {:name "Resume" :href (rfe/href ::resume)}]]])
       
 (defn current-page []
   [:div
