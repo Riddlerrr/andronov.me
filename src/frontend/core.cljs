@@ -5,18 +5,12 @@
             [reitit.coercion.spec :as rss]
             [fipp.edn :as fedn]
             [cljsjs.semantic-ui-react :as ui]
-            [frontend.pages.home :as hp]))
+            [frontend.pages.home :as hp]
+            [frontend.pages.about :as ap]
+            [frontend.pages.resume :as rp]))
 
 (defonce match (r/atom nil))
 
-(defn about-page []
-  [:div
-   [:h2 "About frontend"]])
-
-(defn resume-page []
-  [:div
-   [:h2 "Resume page"]])
-  
 (defn header []
   [:header
    [:> ui/Menu
