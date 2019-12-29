@@ -1,0 +1,5 @@
+{:watch-dirs ["src/frontend"]
+ :css-dirs   ["resources/public/css"]
+ :ring-handler backend.server/handler
+ :open-url false
+ :log-file "tmp/logs/figwheel.log"}
