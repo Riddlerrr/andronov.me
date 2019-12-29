@@ -20,5 +20,3 @@
 
 (def router
   (rf/router routes {:data {:coercion rss/coercion}}))
-
-(js/console.log (rf/match-by-name router ::frontend))
