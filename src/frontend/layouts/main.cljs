@@ -1,7 +1,6 @@
 (ns frontend.layouts.main
   (:require [cljsjs.semantic-ui-react :as ui]
-            [reitit.frontend.easy :as rfe]
-            [fipp.edn :as fedn]))
+            [reitit.frontend.easy :as rfe]))
 
 (defn Header []
   [:header
@@ -25,5 +24,4 @@
        :className "main"}
       (when @current-page-match
         (let [view (:view (:data @current-page-match))]
-          [view @current-page-match]))
-      [:pre (with-out-str (fedn/pprint @current-page-match))]]])
+          [view @current-page-match]))]])
