@@ -1,7 +1,7 @@
 (ns frontend.pages.home)
 
 (defn page-content []
-  [:div
+  [:<>
    [:h2 "Sergey Andronov, Ruby on Rails developer"]
    [:p "I am a full stack developer with 7+ years of " 
     [:mark "Ruby on Rails"] 

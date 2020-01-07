@@ -17,7 +17,7 @@
                       :href (rfe/href :resume)}]]])
 
 (defn page-content [current-page-match]
-  [:div
+  [:<>
      (Header)
      [:> ui/Container
       {:text true
