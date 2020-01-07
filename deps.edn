@@ -5,7 +5,6 @@
         ; Front
         org.clojure/clojurescript       {:mvn/version "1.10.597"}
         reagent                         {:mvn/version "0.8.1"}
-        hiccup                          {:mvn/version "1.0.5"}
         metosin/reitit                  {:mvn/version "0.3.10"}
         metosin/reitit-spec             {:mvn/version "0.3.10"}
         metosin/reitit-frontend         {:mvn/version "0.3.10"}
