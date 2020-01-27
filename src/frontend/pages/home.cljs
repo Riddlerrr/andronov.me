@@ -1,8 +1,13 @@
 (ns frontend.pages.home)
 
-(defn AboutMe []
+(defn AvatarBlock []
+  [:div.ui.medium.rounded.left.floated.image
+   [:img {:src "/images/sergey.jpg"}]])
+
+(defn AboutMeBlock []
   [:<>
    [:h2 "Sergey Andronov, Ruby on Rails developer"]
+   (AvatarBlock)
    [:p "I am a full stack developer with 7+ years of "
     [:mark "Ruby on Rails"]
     " experience in commercial projects."]
@@ -32,5 +37,5 @@
 
 (defn page-content []
   [:<>
-   (AboutMe)
+   (AboutMeBlock)
    (ContactsBlock)])
