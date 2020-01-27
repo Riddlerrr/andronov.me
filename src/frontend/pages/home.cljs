@@ -1,15 +1,6 @@
 (ns frontend.pages.home)
 
-(defn ContactsBlock []
-  [:div.contacts
-   [:h3 "My contacts:"]
-   [:a {:href "https://www.linkedin.com/in/sergey-andronov-806586b0/"}
-    "LinkedIn"]
-   ", "
-   [:a {:href "https://t.me/Riddlerrr"}
-    "Telegram"]])
-
-(defn page-content []
+(defn AboutMe []
   [:<>
    [:h2 "Sergey Andronov, Ruby on Rails developer"]
    [:p "I am a full stack developer with 7+ years of "
@@ -28,5 +19,18 @@
     "."]
    [:p "I am living in Russia, "
     [:a {:href "https://en.wikipedia.org/wiki/Arzamas"} "Arzamas"]
-    " and work remotely."]
+    " and work remotely."]])
+
+(defn ContactsBlock []
+  [:div.contacts
+   [:h3 "My contacts:"]
+   [:a {:href "https://www.linkedin.com/in/sergey-andronov-806586b0/"}
+    "LinkedIn"]
+   ", "
+   [:a {:href "https://t.me/Riddlerrr"}
+    "Telegram"]])
+
+(defn page-content []
+  [:<>
+   (AboutMe)
    (ContactsBlock)])
