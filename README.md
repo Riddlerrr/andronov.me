@@ -1,2 +1,2 @@
-My personal page written using Clojure and ClojureScript
+My personal page andronov.me
 
