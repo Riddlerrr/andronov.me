@@ -597,6 +597,10 @@ video {
   max-width: 80rem;
 }
 
+.list-disc {
+  list-style-type: disc;
+}
+
 .flex-col {
   flex-direction: column;
 }
@@ -621,6 +625,10 @@ video {
 .px-20 {
   padding-left: 5rem;
   padding-right: 5rem;
+}
+
+.ps-4 {
+  padding-inline-start: 1rem;
 }
 
 .text-2xl {
