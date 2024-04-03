@@ -1,23 +1,58 @@
 <!DOCTYPE html>
-<html>
+<html class="h-full">
   <head>
-    <link rel="stylesheet" media="all" href="/css/semantic.min.css" />
-    <link rel="stylesheet" media="all" href="/css/main.css" />
+    <link rel="stylesheet" media="all" href="css/release.css" />
     <title>Sergey Andronov's personal page</title>
+
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="view-transition" content="same-origin" />
   </head>
-  <body>
-    <div class="ui text container main">
-      <h2>Sergey Andronov, Ruby on Rails developer</h2>
-      <div class="ui medium rounded left floated image">
-        <img src="/images/sergey.jpg">
-      </div>
-      <p>I am a full stack developer with 7+ years of <mark>Ruby on Rails</mark> experience in commercial projects.</p>
-      <p>Last few years I also work with <mark>Clojure</mark> and <mark>ClojureScript</mark>.</p>
-      <p>I am living in Russia, <a href="https://en.wikipedia.org/wiki/Arzamas">Arzamas</a> and work remotely.</p>
-      <div class="contacts">
-        <h3>My contacts:</h3>
-        <a href="https://www.linkedin.com/in/sergey-andronov-806586b0/">LinkedIn</a>,
-        <a href="https://t.me/Riddlerrr">Telegram</a>
+  <body class="bg-slate-200 h-full">
+    <div class="min-h-full">
+      <div class="flex flex-col justify-center items-center">
+        <h1 class="mb-6 text-3xl font-bold leading-tight tracking-tight text-gray-900">
+          Sergei Andronov, Ruby on Rails developer
+        </h1>
+
+        <main class="mx-auto max-w-7xl sm:px-6 lg:px-8">
+          <div class="flex items-center justify-center">
+            <div class="px-20">
+              <img src="images/sergey.jpg" class="w-96 rounded-lg">
+            </div>
+            <div class="text-xl text-gray-900">
+              <p>I am a full-stack developer with 10+ years of Ruby on Rails experience in commercial projects.</p>
+              <p>I live in Valencia, Spain and work remotely.</p>
+
+              <h2 class="my-4 text-2xl font-semibold">
+                Key skills
+              </h2>
+              <p>
+                <strong>Languages:</strong> English: Fluent, Russian: Native
+              </p>
+              <p>
+                <strong>Back-end:</strong> Ruby and Ruby on Rails, RSpec, PostgreSQL, BigQuery, Redis
+              </p>
+              <p>
+                <strong>Front-end:</strong> Hotwire + Stimulus, Vue.js, React, Tailwind CSS
+              </p>
+              <p class="font-medium">
+                <a href="/CV_Sergei_Andronov.pdf" class="text-blue-500">
+                  Download Full CV
+                </a>
+              </p>
+
+              <div class="mt-4">
+                <h3 class="text-xl font-semibold">
+                  My contacts
+                </h3>
+                <div class="mt-2">
+                  <a href="https://www.linkedin.com/in/sergey-andronov-806586b0/" class="text-blue-500">LinkedIn</a>,
+                  <a href="https://t.me/andronov" class="text-blue-500">Telegram</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </main>
       </div>
     </div>
   </body>
