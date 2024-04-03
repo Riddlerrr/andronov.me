@@ -2,6 +2,7 @@
 /classes
 /checkouts
 /tmp
+/node_modules
 profiles.clj
 pom.xml
 pom.xml.asc
@@ -11,3 +12,4 @@ pom.xml.asc
 /.nrepl-port
 /.cpcache
 *.code-workspace
+
